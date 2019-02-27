@@ -1,0 +1,228 @@
+<html>
+
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="addsport.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="nav1">
+            <h2>SPORTS</h2>
+            <ul id="nav2">
+                <br>
+                <li>
+                    <a href="" class="active">
+                        <i class="fas fa-futbol"></i>&nbsp&nbspAll Sports</a>
+                </li>
+                <br>
+                <li>
+                    <a href="">
+                        <i class="fas fa-globe"></i>&nbsp&nbspHelp Center</a>
+                </li>
+                <br>
+                <li>
+                    <a href="">
+                        <i class="fas fa-cog"></i>&nbsp&nbspSettings</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="header1">
+            <div style="float:right; padding:10px">
+                <ul id="head1">
+                    <li style="padding:10px 5px 0px">
+                        <span id="username">John Doe</span>
+                        <img src="images/small-down.png" alt="dropdown">
+                    </li>
+                    <li>
+                        <img src="images/Avatar.png" alt="John Doe">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="maindiv">
+
+
+            <div class="addsport">
+                <div>
+                    <span>All Sports</span>
+                </div>
+                <button id="newsport">New Sport</button>
+
+                <form>
+                    <input type="text" id="search" placeholder="search" onchange="searchFunctions(this)">
+                </form>
+                <div id="add"></div>
+
+            </div>
+
+
+            <div class="records">
+                <table class="w3-table w3-bordered" id="table1">
+                    <tbody>
+                        <tr>
+                            <th>#</th>
+                            <th>Sport</th>
+                            <th>About</th>
+                            <th>Origin</th>
+                            <th>Members&nbsp;
+                                <button style="background-color:#FFFFFF;border:none;color: #A1A9A7;">
+                                    <i class="fas fa-caret-down"></i>
+                                </button>
+                            </th>
+                            <th>Type</th>
+                            <th>Equipment</th>
+                            <th>Actions</th>
+                        </tr>
+                </table>
+                <div class="center">
+                    <div class="pagination">
+                        <a href="#">&lt</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="mainDiv2 animate">
+        <div class="head">
+            <span class="span1">New Sport</span>
+            <button class="closeAdd">X</button>
+        </div>
+        <hr>
+        <div id="details">
+            <form id="form1">
+                <table cellpadding="10px">
+                    <tr>
+                        <td width="20%">
+                            <label>Name:
+                                <sup>*</sup>
+                            </label>
+                        </td>
+                        <td width="80%">
+                            <input placeholder="Sport name" name="sportname" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <label>About:</label>
+                        </td>
+                        <td width="80%">
+                            <input placeholder="About Sport" name="about" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <label>Origin:
+                                <sup>*</sup>
+                            </label>
+                        </td>
+                        <td width="80%">
+                            <select name="origin">
+                                <option id="org">Origin Country</option>
+                                <option>India</option>
+                                <option>England</option>
+                                <option>Australia</option>
+                                <option>China</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <label>Members:
+                                <sup>*</sup>
+                            </label>
+                        </td>
+                        <td width="80%">
+                            <input name="members" placeholder="00" type="text">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <label>Type:
+                                <sup>*</sup>
+                            </label>
+                        </td>
+                        <td width="80%">
+                            <select name="type">
+                                <option id="type">Type Of Sport</option>
+                                <option>Team sport</option>
+                                <option>Ball sport</option>
+                                <option>Bat and Ball</option>
+                                <option>Racquet sport</option>
+                                <option>Outdoor</option>
+                                <option>Indoor</option>
+                                <option>Beach</option>
+                                <option>Grass</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="20%">
+                            <label>Equipment:
+                                <sup>*</sup>
+                            </label>
+                        </td>
+                        <td width="80%">
+                            <select name="equipment">
+                                <option id="eqp">Equipment Used</option>
+                                <option>Football</option>
+                                <option>Shuttle cock</option>
+                                <option>Racquet</option>
+                                <option>Volleyball</option>
+                                <option>Basketball</option>
+                                <option>Cricket Ball</option>
+                                <option>Cricket Bat</option>
+                                <option>Golf clubs</option>
+                                <option>Golf balls</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="reset" value="Reset">
+                            <input type="button" id="btn2" name="save" value="Save">
+                            <input type="button" name="update" value="Update" onclick="updateRecord()">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+
+    </div>
+
+    <div class="deleteDiv animate">
+        <div class="head">
+            <span class="span1">Delete Sport</span>
+            <button class="closeDelete">X</button>
+        </div>
+        <p>Are you sure you want to permanently delete the sport?</p>
+        <p>
+            <button id="no">NO</button>
+            <button id="yes" onclick="deleteObj()">YES</button>
+        </p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

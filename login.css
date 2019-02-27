@@ -1,0 +1,84 @@
+* {box-sizing: border-box;}
+
+body
+{
+    background-image : url("images/Group278.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    border: 0px solid #242528;
+    /* position: relative; */
+    
+}
+
+#mainDiv 
+{
+    background-color: #FFFFFF;
+    height: 420px;
+    width: 400px;
+    border-radius: 2px;
+    padding: 50px 50px 60px;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+}
+
+#span1 
+{
+    color:#403E3D;
+    opacity: 50%;
+    font-family:Raleway;
+    line-height: 3;
+}
+
+.input1
+{
+    line-height: 2;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    width: 100%;
+}
+
+#frgtpswd
+{
+    text-decoration: underline;
+    color: #403E3D;
+    float: right;
+}
+
+#btn1
+{
+    color: #FFFFFF;
+    background-color: #07A448;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+    height: 30px;
+    margin-left: 18px; 
+    border-radius: 3px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    font-family: Raleway, Regular;
+}
+
+#btn2 
+{
+    border : 1px solid #272A34;
+    width: 40%;
+    height: 30px;
+    margin-left: 18px; 
+    border-radius: 3px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    font-family: Raleway, Regular;
+    
+}
+
+form
+{
+    line-height: 4;
+}

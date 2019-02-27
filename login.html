@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Sports Login</title>
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <div id = "mainDiv">
+            <p style="text-align:center">
+                <img src="images/Logo.png" alt="sports image"><br>
+                <span id="span1">Welcome back! Please login to your account</span>
+            </p>
+            <form>
+                <input class = "input1" id = "uname" placeholder="Username" required = "required">
+                <p></p>
+                <input class = "input1" id = "pswd" placeholder="Password" required = "required">
+                <input type = "checkbox"> Remember me <a href="#" id = "frgtpswd">Forgot Password</a><br>
+                
+            </form>
+            <a href="#"  id = "login" ><button id = "btn1" onclick="loginValidation()">Login</button></a>
+                <a href="#"  onclick=""><button id = "btn2" onclick="signUp()">Sign Up</button></a>
+        </div>
+        <script src="app.js"></script>
+
+    </body>
+</html>

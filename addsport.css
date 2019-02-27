@@ -1,0 +1,173 @@
+/* * {box-sizing: border-box;}
+body{background-color: red;} */
+
+.mainDiv2 
+{
+    background-color: #FFFFFF;
+    /* margin: 20% auto; */
+    height: auto;
+    width: 60%;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 5px 0px 10px;
+    position: absolute;
+    left: 25%;
+    top:13%;
+    display: none;
+}
+
+.deleteDiv 
+{
+    background-color: #FFFFFF;
+    /* margin: 20% auto; */
+    height: 20%;
+    width: 32%;
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 5px 0px 10px;
+    position: absolute;
+    left: 35%;
+    top:25%;
+    line-height: 2;
+    display: none;
+}
+
+.span1 
+{
+    color:#4EA679;
+    opacity: 50%;
+    font-family:Raleway;
+    line-height: 3;
+    font-size: 16px;
+}
+table {
+    width:100%;
+    
+}
+table tr td label
+{float: right;
+    text-align: right;
+    color: #27454A;
+}
+sup{color: red;}
+
+table tr td input
+{
+    text-align: left;
+    color: #272A34;
+    opacity: 20%;
+    margin-right: 20px;
+    padding-left: 10px;
+    font-family: Raleway;
+    border-radius: 4px;
+    height: 30px;
+    
+}
+input[name="members"]
+{
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    
+}
+select
+{
+    text-align: left;
+    color: #272A34;
+    opacity: 20%;
+    margin-right: 20px;
+    padding-left: 10px;
+    font-family: Raleway;
+    border-radius: 4px;
+    line-height: 2;
+    height: 30px;
+    border: 1px solid #D2D2D2;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+input
+{
+    border: 1px solid #D2D2D2;
+    width: 100%;
+}
+
+
+input[type="reset"], #no
+{
+    color:#272A34;
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 25%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #272A34;
+    font-family: Raleway, Regular;
+    font-size: 14px;
+}
+
+input[name="update"], input[name="save"], #yes
+{
+    border : 1px solid #272A34;
+    color: #FFFFFF;
+    width: 25%;
+    text-align: center;
+    height: 30px;
+    font-size: 14px;
+    margin-left: 18px; 
+    border-radius: 3px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    font-family: Raleway, Regular;
+    background-color: #07A448;
+}
+input[name="update"], input[name="save"]
+{
+    display: none;
+}
+input[name="no"], input[name="yes"]
+{
+    margin: 0 ;
+    /* padding-left: 50%; */
+}
+
+.deleteDiv p{
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+/* form
+{
+    line-height: 4;
+    padding: 20px 30px 20px 0px;
+} */
+
+.head
+{
+    text-align: center;
+    padding: 1px 3px;
+    width: auto;
+    height: 40px;
+}
+
+.head button
+{
+    background-color: #FFFFFF;
+    border: none;
+    float: right;
+    width: 20px;
+    padding: 5px 3px;
+    height: 20px;
+    margin: 10px;
+    color: #403E3D;
+}
+
+  /* Add Zoom Animation */
+  .animate {
+    /* -webkit-animation: animatezoom 0.6s; */
+    animation:  animatezoom 0.4s;
+  }
+
+
